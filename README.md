@@ -1,18 +1,49 @@
 # Invoice Management System
 
-A Java application for managing customers, invoices and products, developed using object-oriented programming principles.
+An object-oriented invoice management system developed in Java.
 
-The system supports customer registration, invoice creation, product management and VAT calculation, while demonstrating core OOP concepts such as inheritance, encapsulation and polymorphism.
+The application manages customers, invoices and multiple product categories while automatically calculating VAT according to product type and customer location.
 
 ## Features
 
 - Customer management
-- Invoice management
+- Invoice creation and management
 - Product management
-- VAT calculation
-- Input validation
+- Automatic VAT calculation
+- Multiple product categories
 - File persistence
-- Interactive command-line interface
+- Input validation
+- Command-line interface (CLI)
+
+## Object-Oriented Design
+
+The project makes extensive use of object-oriented programming concepts:
+
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstract Classes
+- Method Overriding
+- Serializable Objects
+
+## Product Hierarchy
+
+- Food Products
+  - Reduced VAT
+  - Intermediate VAT
+  - Normal VAT
+  - Canned
+  - Frozen
+  - Wines
+
+- Pharmacy Products
+  - Prescription
+  - Non-Prescription
+    - Beauty
+    - Baby
+    - WellBeing
+    - Animal
+    - Other
 
 ## Technologies
 
@@ -20,21 +51,14 @@ The system supports customer registration, invoice creation, product management 
 - Object-Oriented Programming
 - File I/O
 
-## Concepts Demonstrated
+## Skills Demonstrated
 
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Exception Handling
-- Collections
+- Software Design
+- Object-Oriented Programming
+- Class Hierarchies
 - File Persistence
-
-## Repository Structure
-
-```
-src/
-README.md
-```
+- Input Validation
+- Business Logic Implementation
 
 ## Authors
 
